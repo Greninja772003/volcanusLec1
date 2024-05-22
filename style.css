@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 25vw;
+    height: 100%;
+    background-image: url(https://static1.squarespace.com/static/5134cbefe4b0c6fb04df8065/t/5bd1e183ec212df24c8d5d0f/1582743997341/squarespace-logo-horizontal-white.jpg?format=1000w);
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+}
+.mid{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.mid a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.right{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2vw;
+}
+.b1{
+    padding: 1vw;
+    color: white;
+    background-color: black;
+    border: black;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.b2{
+    padding: 1vw;
+    color:black;
+    font-weight: bold;
+    background-color: white;
+    border: black;
+    font-size: 1vw;
+}
+#bottom{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+.filter{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   color: white;
+    width: 20vw;
+    height: 3vw;
+   
+    font-size: 2vw;
+   }
+.way{
+    width: 20vw;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    gap: .5vw;
+}
+.handles{
+    width: 20vw;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 2vw;
+}
+#center{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+
+}
+#content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+}
+.text{
+    color: white;
+    font-size: 6vw;
+    width: 46vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+span{
+    color: white;
+    padding: 1vw;
+    font-size: 1.5vw;
+    width: 15vw;
+    border-radius: 30px;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.option{
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+.option i{
+    background-color: white;
+    color: black;
+    font-size: 2vw;
+}
+.image1{
+    position: absolute;
+    top: 10%;
+    width: 8vw;
+    left: 8%;
+    height: 12vw;
+    background-image: url(https://plus.unsplash.com/premium_photo-1663956138984-4bdb183b048e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNlbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    z-index: 34;
+}
+.image2{
+    position: absolute;
+    top: 70%;
+    width: 15vw;
+    left: 23%;
+    height: 12vw;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673468922223-bc2ad3675159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2VsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    z-index: 34;
+}
+.image3{
+    position: absolute;
+    top: 8%;
+    width: 20vw;
+    left: 60%;
+    height: 12vw;
+    background-image: url(https://images.unsplash.com/photo-1642543348791-b1cc1b07e756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNlbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    z-index: 34;
+}
+.image4{
+    position: absolute;
+    top: 60%;
+    width: 10vw;
+    left: 85%;
+    height: 14vw;
+    background-image: url(https://images.unsplash.com/photo-1592644483189-d7248663d48e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNlbGx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    z-index: 34;
+}
+/* @media (max-width:600){
+    .image1
+} */
